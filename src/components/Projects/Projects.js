@@ -22,7 +22,7 @@ const data = [
         titulo: "The Movie Base",
         description: "Su fin era lograr demostrar las habilidades aprendidas en solitario. Esta interfaz de contenidos permite visualizar series y películas, y crear una experiencia plena para el usuario."
         ,
-        repo: ""
+        repo: "https://github.com/andradeMajo/theMovieBase"
 
     }
 ]
