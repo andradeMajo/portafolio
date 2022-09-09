@@ -1,0 +1,120 @@
+#skillSVG {
+    height: 1000px;
+    width: 1900px;
+    position: absolute;
+}
+
+#skillSVG>path {
+    stroke: aliceblue;
+    stroke-width: 3px;
+}
+
+.titleSkill {
+    top: 89px;
+    font-size: 5.5em;
+    color: white;
+    position: absolute;
+
+}
+
+
+.circulo {
+    --circulo1: #F01FCD;
+    display: block;
+    position: relative;
+    background-color: var(--circulo1);
+    animation: bgskill 2s;
+    width: 3000px;
+    height: 38vh;
+    transform: rotate(333deg);
+    top: -20.2em;
+    left: 55em;
+    border-radius: 15px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+@keyframes bgskill {
+    0% {
+        top: 10.2em;
+        left: 45em;
+        border-radius: 50%;
+        width: 350px;
+        height: 350px;
+
+    }
+
+    45% {
+        top: 10.2em;
+        left: 45em;
+        width: 350px;
+        height: 350px;
+
+    }
+
+}
+
+.grid {
+    color: white;
+    display: grid;
+    gap: 1rem;
+    row-gap: 4rem;
+    column-gap: 1rem;
+    grid-auto-rows: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(92px, 13rem), 2.6fr));
+    justify-items: start;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.name{
+    font-size: 0.7em;
+    margin: 5px;
+}
+.skillborder {
+    width: 580px;
+    height: 50%;
+  
+}
+.previus{
+    position: absolute;
+background-color:rgba(105, 105, 105, 0.661);
+border-radius: 50%;
+border: none;
+}
+
+@media (max-width:900px) {
+    .titleSkill {
+        font-size: 4.5em;
+    }
+
+    .circulo {
+        transform: rotate(360deg);
+        top: 14.8em;
+        width: 100%;
+        left: 2px;
+        height: 120%;
+    }
+
+    #skillSVG {
+        height: 0px;
+        width: 0px;
+        position: absolute;
+
+    }
+.skillborder {
+        width: 100%;
+        left: 15px;
+    }
+.previus{
+    top:10%;
+}
+}
+
+@media (min-width:900px) {
+    .titleSkill {
+        font-size: 0px;
+    }
+
+    
+}

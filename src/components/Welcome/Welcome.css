@@ -1,0 +1,111 @@
+:root {
+    background-color: black;
+    --color: #1ff042;
+}
+
+.conteiner {
+    margin: 25% 2% 0% 2%;
+    width: 95%;
+    overflow-x: scroll;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+
+}
+
+.text {
+    color: var(--color);
+    display: block;
+    font-family: 'AndaleMono', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.15em;
+    white-space: nowrap;
+    text-shadow: 0 0 2px rgba(var(--color), 0.75);
+    line-height: 1;
+    margin-bottom: 0.75em;
+}
+@media (max-width: 500px) {
+    .text{
+    font-size: 0.6em;
+    }
+    .conteiner{
+    cursor: grab;
+
+    }
+}
+.animation-1 {
+    width: 7ch;
+    animation: typing 2s steps(9),
+        blink .9s infinite step-end alternate;
+    overflow: hidden;
+}
+
+.animation-2 {
+    width: 32ch;
+    animation: typing 3s steps(27),
+        blink .9s infinite step-end alternate;
+    overflow: hidden;
+}
+
+.animation-3 {
+    width: 56ch;
+    animation: typing 8s steps(45),
+        blink .9s infinite step-end alternate;
+    overflow: hidden;
+}
+
+.animation-4 {
+    width: 62ch;
+    animation: typing 10s steps(45),
+        blink .9s infinite step-end alternate;
+    overflow: hidden;
+}
+
+
+.animation-5 {
+    width: 1.5ch;
+    animation: typing 15s steps(45),
+        blink .9s infinite step-end alternate;
+        border-right: 3px solid;
+
+}
+
+@keyframes typing {
+
+    0%,
+    15% {
+        color: #000;
+    }
+    0%,
+    15% ,99%{
+    border-right: 3px solid;
+}
+    from {
+        width: 0;
+    }
+
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+
+}
+.botton{
+    background-color: #000;
+   width: 200px;
+   height: 30px;
+     border: none;
+     margin: 8px auto; 
+}
+.botton:hover{
+    background-color: var(--color);
+    color: #000;
+
+}
+
