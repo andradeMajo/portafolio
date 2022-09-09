@@ -5,14 +5,15 @@ import { RiFolderUserFill } from "react-icons/ri";
 import pdf from "./Majo_Andrade_CV_1.pdf"
 function Footer (){
 return(
-    <footer >
+  <>
+  <footer >
     <div style={{"text-decoration":"none"}}className="footer-content">
      <h3>
       Contactame: 
      </h3>
       Maria Jose Andrade 
      <p > 
-     <a href="mailto:mariajoseandradeloz@gmail.com" target="_blank"  className="fa fa-gmail" >
+     <a name="contacto" href="mailto:mariajoseandradeloz@gmail.com" target="_blank"  className="fa fa-gmail" >
    <SiGmail/> </a>
   mariajoseandradeloz@gmail.com
  
@@ -47,6 +48,8 @@ return(
 <p> copyright &copy;2022 code by Majo Andrade </p>
     </div>
 </footer>
+  </>
+    
       
 )
 }

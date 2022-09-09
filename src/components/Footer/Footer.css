@@ -8,7 +8,7 @@
   background-color: black;
   height: auto;
   width: 1000vw;
-  color: #1ff042;
+  color: #cdf01f;
 }
 .footer-content{
   display: flex;
@@ -16,8 +16,8 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  color: #1ff042;
-  padding-top: 50%;
+  color: #cdf01f;
+  padding-top: 25%;
 
 }
 .footer-content h3{
@@ -46,7 +46,7 @@ margin: 1rem 0 3rem 0;
 .socials a{
 
   text-decoration:  none;
-  color: #1ff042;
+  color: #cdf01f;
 
 }
 .socials a i{
@@ -57,7 +57,7 @@ margin: 1rem 0 3rem 0;
   color:white;
 }
 .footer-bottom{
-  background-color: #1ff042;
+  background-color: #cdf01f;
   width: 100w;
   padding: 20px 0;
   text-align: center;
@@ -76,7 +76,7 @@ margin: 1rem 0 3rem 0;
   flex-wrap: nowrap;
   align-content: center;
   text-decoration: none;
-  color: #1ff042;
+  color: #cdf01f;
 
 }
 .fa :hover{

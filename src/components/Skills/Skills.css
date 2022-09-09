@@ -91,9 +91,10 @@ border: none;
     .circulo {
         transform: rotate(360deg);
         top: 14.8em;
-        width: 100%;
+        width: 95%;
         left: 2px;
-        height: 120%;
+        height: auto;
+        margin-bottom: 29%;
     }
 
     #skillSVG {
@@ -109,6 +110,9 @@ border: none;
 .previus{
     top:10%;
 }
+.grid{
+    grid-auto-rows: 6rem;
+}
 }
 
 @media (min-width:900px) {
@@ -118,3 +122,24 @@ border: none;
 
     
 }
+
+    @media (max-width:500px) {
+        .titleSkill {
+        
+            left: 10%;
+                top: 5%;
+                font-size: 50px;
+            }
+            .circulo {
+                margin-top: 25%;
+            }
+            .name{
+                font-size: 3.7em;
+               
+            }
+        }
+        
+        
+    
+
+

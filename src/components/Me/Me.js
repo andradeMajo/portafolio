@@ -2,7 +2,7 @@ import "./Me.css"
 import { motion, useMotionValue, useTransform } from "framer-motion"
 import bombilla from "../../img/bombilla.gif"
 import trabajo from "../../img/trabajo.gif"
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 function Me() {
     const navegate = useNavigate()
 
@@ -37,14 +37,25 @@ function Me() {
                     En el que no solo mejoré mis habilidades técnicas y mi capacidad de aprendizaje, sino también reforcé mi autonomía, mis habilidades sociales a la hora de trabajar en grupo, superar la frustración y así mismo,  superé mis expectativas y hoy por hoy me sigo retando para afrontar nuevos desafíos.
                     <br />
                     <br />
-                    Ademas me ecuentro reliazando un tecnólogo en Análisis y Desarrollo de Sistemas de Información brindado por el Servicio Nacional de Aprendizaje "SENA". Basándose en la experimentación y mejoras de las tecnologías relacionadas con el ciclo de vida del Software, incluyendo sus diferentes fases.
+                    Ademas me ecuentro realizando un tecnólogo en Análisis y Desarrollo de Sistemas de Información brindado por el Servicio Nacional de Aprendizaje "SENA". Basándose en la experimentación y mejoras de las tecnologías relacionadas con el ciclo de vida del Software, incluyendo sus diferentes fases.
                     <br />
                     <br />
                     Todo esto con el fin de seguir aprendiendo y apasinarme más por el mundo IT
                 </p>
-
+<motion.button
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 2 }}
+                transition={{ duration: 5 }}
+              
+        className="contacto"
+            > 
+            <Link to="/contacto">
+            contactame
+            </Link>
+          
+           </motion.button>
             </div>
-
+ 
             <motion.div
 
                 className="cardContainer" style={{
@@ -113,7 +124,7 @@ function Me() {
                     <img className="logo1" src={trabajo} alt="loading..." />
                 </motion.div>
             </motion.div>
-
+           
 
 
 

@@ -10,15 +10,14 @@ import Footer from './components/Footer/Footer';
 function App() {
 const pathname= useLocation().pathname
 const root= pathname.split("/")
-console.log(root);
+
   return (
     <><Routes>
       <Route path='/' element={<Welcome/>}/>
       <Route path='/me' element={<Me/>}/>
       <Route path='/skills' element={<Skills/>}/>
-      <Route path='/projects' element={<Projects/>}/>
-      
-    </Routes>
+      <Route path='/projects' element={<Projects/>}/> 
+       </Routes>
    {root[1]!==""?<Footer/>:null }
     </>
     

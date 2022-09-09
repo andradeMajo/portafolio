@@ -17,7 +17,7 @@
 }
 
 .circuloazul {
-    background-color: #620cb6;
+    background-color: #edd600;
     border-radius: 15px;
     animation: bgpojects 5s;
     margin: 2%;
@@ -45,7 +45,9 @@
 
 .imgcard {
     margin: 10px;
-    height: 200px;
+    height: 185px;
+    border-radius: 15px;
+    right: 26px;
     animation: cardAnimation 4s;
 }
 
@@ -53,6 +55,7 @@
     margin: 0px 40px;
     color: black;
     animation: cardAnimation 4s;
+    text-align: justify;
 }
 
 .card {
@@ -97,6 +100,7 @@
     .grilla {
         animation: bgpojecT 1s;
         width: 100%;
+     
     }
 
     .circuloazul {
@@ -133,7 +137,7 @@
 
     .bodycard {
         animation: cardAnimation 1s;
-
+  font-size: 1.0em;
     }
 }
 
@@ -143,12 +147,18 @@ element.style {}
     .grilla {
         margin: 35% auto;
         height: 100%;
-
+    
     }
-
+    .bodycard {
+        animation: cardAnimation 1s;
+  font-size: 4.5em;
+    }
 
     .imgcard {
         margin: 10%;
         height: 116px;
+    }
+    .card{
+        
     }
 }
