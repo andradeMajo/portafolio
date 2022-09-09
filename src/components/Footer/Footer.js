@@ -1,7 +1,6 @@
 import "./Footer.css"
 import { SiLinkedin, SiGithub,SiGmail} from "react-icons/si"
 import { RiFolderUserFill } from "react-icons/ri";
-
 import pdf from "./Majo_Andrade_CV_1.pdf"
 function Footer (){
 return(
@@ -48,6 +47,7 @@ return(
 <p> copyright &copy;2022 code by Majo Andrade </p>
     </div>
 </footer>
+
   </>
     
       

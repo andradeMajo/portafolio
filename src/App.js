@@ -7,6 +7,7 @@ import Me from './components/Me/Me';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
+import Particles from './components/Footer/Particles';
 function App() {
 const pathname= useLocation().pathname
 const root= pathname.split("/")
@@ -17,9 +18,13 @@ const root= pathname.split("/")
       <Route path='/me' element={<Me/>}/>
       <Route path='/skills' element={<Skills/>}/>
       <Route path='/projects' element={<Projects/>}/> 
+
+
        </Routes>
    {root[1]!==""?<Footer/>:null }
-    </>
+   <Particles/>
+   </>
+   
     
   );
 }

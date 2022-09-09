@@ -21,7 +21,7 @@
     border-radius: 15px;
     animation: bgpojects 5s;
     margin: 2%;
-    width: 428px;
+    width:360px;
     height: 85%;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -40,11 +40,11 @@
 .header {
     margin: auto;
     width: 350px;
-    height: 250px;
+    height: 100%;
 }
 
 .imgcard {
-    margin: 10px;
+    margin: 0 10%;
     height: 185px;
     border-radius: 15px;
     right: 26px;
@@ -119,8 +119,8 @@
     }
 
     .imgcard {
-        height: 69%;
-        margin: 5%;
+
+        margin:  0 15%;
 
         animation: cardAnimation 1s;
 
